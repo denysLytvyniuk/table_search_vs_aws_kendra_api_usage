@@ -20,8 +20,10 @@ if __name__ == '__main__':
     query3 = "scary movies released before 2000"
     query4 = "scary movies "
 
+    # table search querying
     query_response = query_uploaded_table(file_name, query2)
     print_query_result(query_response)
 
+    # aws kendra querying
     index = os.getenv('INDEX_json')
     query_index(index, query2)
