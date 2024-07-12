@@ -1,4 +1,4 @@
-# Comparison of Table Search and Amazon Kendra APIs
+# Comparison of Table Search and Amazon Kendra
 
 This project compares the effectiveness of **Table Search** and **Amazon Kendra** by querying an IMDb dataset.
 
